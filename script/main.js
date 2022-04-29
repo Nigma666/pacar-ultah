@@ -15,7 +15,7 @@ temp=true;
 }
 else
 {
-	alert("Aduh ini siapa!!!");
+	alert("Aduh ini siapa?! Tanyain aku dulu lewat WA gih!");
 	document.getElementById("output").innerHTML = age;
 	temp=false;
 }
