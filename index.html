@@ -10,15 +10,16 @@
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
   <link rel="stylesheet" href="style/style.css">
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
   <script type="application/javascript" src="script/main.js" defer></script>
+	
 </head>
 
 <body>
+	<button id="trigger" onclick="musik()" hidden="hidden"></button>
   <div class="container">
     <div class="one">
-      <h1 class="one">Halo
+      <h1 class="one" >Halo
         <span id="name">Pacarku 😁</span>
       </h1>
       <p class="two" id="greetingText">Aku sangat senang hari ini</p>
@@ -52,7 +53,7 @@
       <img src="img/ayang.png" alt="" class="stanley-dp" id="imagePath">
       <img src="img/hat.svg" alt="" class="hat" id="imagePath">
       <div class="wish">
-        <h3 class="wish-hbd">Selamat Ulang Tahun!</h3>
+        <h3 class="wish-hbd">HBD Sayang!</h3>
         <h5 id="wishText">Semoga Tuhan Memberkati ;)</h5>
       </div>
     </div>
@@ -124,7 +125,7 @@
     </div>
     <div class="nine">
       <p>Pacarku tambah tua 🤣🤣</p>
-      <p id="replay">Ga bosen apa pencet ini?</p>
+      <p id="replay" onclick='musik();'>Liat lagi!</p>
       <p>Yang bawah jangan di-scan!!</p>
       <p class="last-smile">:)</p>
       <p><img src="img/qr.jpg" alt="" class="hat" id="imagePath"></p>

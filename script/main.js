@@ -1,8 +1,52 @@
+
+document.getElementById("trigger").click();
+function musik(){
+	var audio = new Audio('file.mp3');
+	audio.play();
+	//alert('haia');
+};
+
+function getMyCourse() {//function definition
+var course=prompt("Ini siapa ya?");
+var temp;
+if(course=="Ayang Eka")
+{
+temp=true;
+}
+else
+{
+	alert("Aduh ini siapa!!!");
+	document.getElementById("output").innerHTML = age;
+	temp=false;
+}
+var confirmMes=confirm("Apa bener ayang aku?");
+if (confirmMes)  //if press ok then value is true
+{
+	//document.getElementById("mainkan").onclick();
+age="Iya ayang kamu";
+	alert("Selamat Datang Tuan Putriku ;)");
+	var timer, sound, counter=0;
+            function trigger(){
+				document.getElementById("myBtn").click();
+			}
+	
+}
+else    //if press Cancel then value is false
+{
+	alert('Ih main main, ulang dari awal!!');
+const element = document.getElementById("salah");
+	element.innerHTML = "Orang aneh!";
+}
+	
+}
+getMyCourse();
+
 // Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
   const hbd = document.getElementsByClassName("wish-hbd")[0];
+  
 
   textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
     .split("")
